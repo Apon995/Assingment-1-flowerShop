@@ -116,7 +116,6 @@ main {
 .row > .image > div {
   height: 265px;
   width: 230px;
-  border: 1px solid rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -222,7 +221,7 @@ main {
   font-size: 15px;
 }
 .social-midea > .social-row {
-  margin-top: 100px;
+  margin-top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;

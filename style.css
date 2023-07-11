@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 10px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 10;
+  background-color: #ffffff;
+}
+header > h1 > strong{
+    color: #d75672;
+}
+header > nav > ul {
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+  margin: 10px;
+}
+header nav ul li a {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+}
+header li > a:hover {
+  color: rgb(208, 81, 81);
+  border-bottom: 1px solid #adadad;
+}
+
+/* main-section-style */
+
+main {
+  background-color: #ffff;
+}
+.container {
+  padding: 50px 10%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fbc0cd;
+}
+.container > .content {
+  margin-top: 130px;
+  flex-basis: 55%;
+}
+.container > .content > h1 {
+  font-size: 50px;
+  margin-bottom: 6px;
+}
+.container > .content > p {
+  font-size: 18px;
+}
+.container > .content > button {
+  padding: 17px 40px;
+  margin-top: 18px;
+  color: #ffff;
+  background-color: #d03d5d;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.container > .content > button:hover {
+  opacity: 0.7;
+}
+.container > .image-section > img {
+  width: 350px;
+  position: relative;
+  top: 52px;
+}
+
+.row-section {
+  padding: 10px 10%;
+}
+.row-section > .row-header {
+  padding: 30px 0;
+  text-align: center;
+}
+.row-section > .row-header > h1 {
+  font-size: 35px;
+  font-weight: 500;
+  margin: 7px 0px;
+}
+.row-section > .row-header p {
+  font-size: 13px;
+}
+.row-section > .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.row-section > .row > .image {
+  text-align: center;
+  margin: 0 10px;
+}
+.image > div > .img1 {
+  position: relative;
+  top: 27px;
+}
+.image > div > .img3 {
+  position: relative;
+  top: 19px;
+}
+.row > .image > div {
+  height: 265px;
+  width: 230px;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px 100px 0 0;
+}
+.image > .image-one {
+  background-color: #d3d0d2c8;
+}
+.image > .image-two {
+  background-color: #b4e5e8c1;
+}
+.image > .image-three {
+  background-color: #d8e7c9e2;
+}
+.image > a {
+  margin-top: 18px;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: underline;
+}
+.image img {
+  width: 150px;
+}
+
+.service {
+  padding: 10px 10%;
+  margin-top: 60px;
+}
+
+.service > .service-row {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #ececec;
+}
+.service-row > div {
+  text-align: center;
+  margin: 10px 20px;
+}
+.service-row > div > p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.service-row > div > a img {
+  width: 55px;
+}
+.offer-section {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffdbe2fc;
+}
+.offer-section > .left-section h1 {
+  font-size: 40px;
+}
+.offer-section > .left-section {
+  text-align: center;
+}
+.offer-section > .left-section span {
+  color: #d83a5d;
+}
+.offer-section > .left-section p {
+  font-size: 17px;
+  margin: 15px 0px;
+}
+.offer-section > .left-section button {
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: #d83a5d;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffff;
+}
+.offer-section > .left-section button:hover {
+  opacity: 0.8;
+}
+.offer-section > .right-section {
+  margin-left: 150px;
+}
+.offer-section > .right-section img {
+  margin-top: 50px;
+  width: 80%;
+}
+
+.social-midea {
+  margin-top: 70px;
+  padding: 10px 10%;
+  text-align: center;
+}
+.social-midea > .Instagram h3 {
+  font-size: 24px;
+  padding: 5px;
+}
+.social-midea > .Instagram p {
+  font-size: 15px;
+}
+.social-midea > .social-row {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.social-row > div {
+  margin: 10px;
+}
+.social-midea > .social-row > div img {
+  width: 220px;
+}
+.social-midea > .social-row > div img:hover{
+    transform: scale(1.1);
+   border:2px solid #1877F2;
+}
+
+.subscrible-section{
+    margin:60px 0px; 
+    padding:30px 10%; 
+    border-radius: 10px ;
+    background: no-repeat url(./Assets/contact-background.png); 
+    background-size: cover;
+
+}
+.subscrible-section > div {
+    padding:36px 0px; 
+  
+}
+.subscrible-section h1{
+   margin:15px 0px; 
+  
+}
+.subscrible-section p{
+  color:#adadad; 
+  font-weight: bold;
+  
+}
+.subscrible-section > div input {
+    padding:0px 10px;
+    width: 60% ;
+    height: 55px ;
+    border-radius: 10px ;
+    font-size: 16px;
+    background-color: #ffff;
+    border: none;
+    outline: none ;
+    
+}
+.subscrible-section > div button {
+    padding: 17px 10px;
+    border-radius: 10px;
+    background-color: #d03d5d;
+    color: #ffffff;
+    font-size: 17px ;
+
+ 
+}
+
+/* ----footer-section-style---- */
+
+footer{
+    width: 100%;
+    height: 150px ;
+    background-color: #000000;
+    color:#ffff;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer > .footer-section strong{
+    color: #d75672;
+   
+}
+footer > .footer-section p{
+   padding:4px ;
+   
+}
+footer > .footer-section span{
+    display: block;
+    margin-top: 15px ;
+    font-size: 14px;
+    color:#adadad;
+}

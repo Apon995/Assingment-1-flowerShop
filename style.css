@@ -19,8 +19,8 @@ header {
   z-index: 10;
   background-color: #ffffff;
 }
-header > h1 > strong{
-    color: #d75672;
+header > h1 > strong {
+  color: #d75672;
 }
 header > nav > ul {
   display: flex;
@@ -234,77 +234,242 @@ main {
 .social-midea > .social-row > div img {
   width: 220px;
 }
-.social-midea > .social-row > div img:hover{
-    transform: scale(1.1);
-   border:2px solid #1877F2;
+.social-midea > .social-row > div img:hover {
+  transform: scale(1.1);
+  border: 2px solid #1877f2;
 }
 
-.subscrible-section{
-    margin:60px 0px; 
-    padding:30px 10%; 
-    border-radius: 10px ;
-    background: no-repeat url(./Assets/contact-background.png); 
-    background-size: cover;
-
+.subscrible-section {
+  margin: 60px 0px;
+  padding: 30px 10%;
+  border-radius: 10px;
+  background: no-repeat url(./Assets/contact-background.png);
+  background-size: cover;
 }
 .subscrible-section > div {
-    padding:36px 0px; 
-  
+  padding: 36px 0px;
 }
-.subscrible-section h1{
-   margin:15px 0px; 
-  
+.subscrible-section h1 {
+  margin: 15px 0px;
 }
-.subscrible-section p{
-  color:#adadad; 
+.subscrible-section p {
+  color: #adadad;
   font-weight: bold;
-  
 }
 .subscrible-section > div input {
-    padding:0px 10px;
-    width: 60% ;
-    height: 55px ;
-    border-radius: 10px ;
-    font-size: 16px;
-    background-color: #ffff;
-    border: none;
-    outline: none ;
-    
+  padding: 0px 10px;
+  width: 60%;
+  height: 55px;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #ffff;
+  border: none;
+  outline: none;
 }
 .subscrible-section > div button {
-    padding: 17px 10px;
-    border-radius: 10px;
-    background-color: #d03d5d;
-    color: #ffffff;
-    font-size: 17px ;
-
- 
+  padding: 17px 10px;
+  border-radius: 10px;
+  background-color: #d03d5d;
+  color: #ffffff;
+  font-size: 17px;
 }
 
 /* ----footer-section-style---- */
 
-footer{
-    width: 100%;
-    height: 150px ;
-    background-color: #000000;
-    color:#ffff;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #000000;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-footer > .footer-section strong{
-    color: #d75672;
+footer > .footer-section strong {
+  color: #d75672;
+}
+footer > .footer-section p {
+  padding: 4px;
+}
+footer > .footer-section span {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #adadad;
+}
+
+.work-time {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 10px 3%;
    
 }
-footer > .footer-section p{
-   padding:4px ;
-   
-}
-footer > .footer-section span{
-    display: block;
-    margin-top: 15px ;
+  .container {
+    padding: 0px 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container > .content {
+    margin-top: 80px;
+    flex-basis: 55%;
+    text-align: center;
+  }
+  .container > .content > h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .container > .content > p {
+    font-size: 15px;
+  }
+  .container > .image-section > img {
+    width: 340px;
+    position: relative;
+    top: 0px;
+  }
+  .container > .image-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .row-section {
+    padding: 10px 6%;
+  }
+  .row-section > .row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .service > .service-row {
+    height: auto;
+    flex-direction: column;
+    gap: 45px;
+  }
+  .service {
+    padding: 10px 5%;
+    margin-top: 60px;
+  }
+  .social-midea {
+    padding: 10px 1%;
+  }
+  .social-midea > .Instagram {
+    padding: 0px 45px;
+  }
+
+  .offer-section > .right-section {
+    margin-left: 0px;
+  }
+
+  .offer-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .offer-section > .left-section {
+    padding: 20px 66px;
+    text-align: center;
+  }
+  .offer-section > .right-section img {
+    margin-top: 50px;
+    width: 70%;
+  }
+  .subscrible-section {
+    padding: 30px 0%;
+  }
+  .subscrible-section > div button {
+    padding: 17px 6px;
     font-size: 14px;
-    color:#adadad;
+  }
+  footer > .footer-section p {
+    padding: 4px 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .container {
+    padding: 50px 2%;
+  }
+  .container > .content {
+    margin-top: 80px;
+    flex-basis: 55%;
+  }
+  .container > .content > h1 {
+    font-size: 43px;
+    margin-bottom: 6px;
+  }
+  .container > .image-section {
+    flex-basis: 45%;
+  }
+
+  .container > .image-section > img {
+    width: 100%;
+    position: relative;
+    top: 52px;
+  }
+  .row-section {
+    padding: 10px 0%;
+  }
+  .row-section > .row {
+    flex-wrap: wrap;
+  }
+  .service {
+    padding: 10px 5%;
+    margin-top: 60px;
+  }
+
+  .offer-section {
+    flex-wrap: nowrap;
+  }
+  .offer-section > .right-section img {
+    margin-top: 87px;
+    width: 75%;
+  }
+  .social-midea {
+    margin-top: 70px;
+    padding: 10px 5%;
+    text-align: center;
+  }
+  .subscrible-section {
+    padding: 30px 5%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    padding: 30px 1%;
+  }
+  .container > .content {
+    flex-basis: 50%;
+  }
+  .container > .image-section {
+    flex-basis: 45%;
+    text-align: center;
+  }
+  .container > .image-section > img {
+    width: 80%;
+    top: 45px;
+  }
+  .row-section {
+    padding: 10px 5%;
+  }
+  .offer-section {
+    flex-wrap: nowrap;
+  }
+  .offer-section > .right-section {
+    margin-left: 70px;
+  }
+  .offer-section > .right-section img {
+    width: 85%;
+  }
+
+  .social-midea {
+    padding: 10px 3%;
+    text-align: center;
+  }
 }
